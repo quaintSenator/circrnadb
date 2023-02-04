@@ -70,7 +70,7 @@ export default {
         freshData() {
             console.log("freshing Data...");
             const that = this;
-            var url = 'http://127.0.0.1:5000/api/rnas/by/byid/' + that.id
+            var url = 'http://8.136.185.34:5000/api/rnas/by/byid/' + that.id
             console.log(url);
             axios.get(url).then(function (response) {
                 // handle 

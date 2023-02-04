@@ -64,7 +64,7 @@ export default {
         freshData() {
             console.log("freshing Data...");
             const that = this;
-            var url = 'http://127.0.0.1:5000/api/rnas/PageNo/' + that.currentPage + "/"+"PageSize/" + that.pageSize;
+            var url = 'http://8.136.185.34:5000/api/rnas/PageNo/' + that.currentPage + "/"+"PageSize/" + that.pageSize;
             console.log(url);
             axios.get(url).then(function (response) {
                 // handle success

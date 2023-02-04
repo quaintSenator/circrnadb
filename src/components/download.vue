@@ -17,11 +17,11 @@
 
         </el-table>
 
-        <a href="http://127.0.0.1:5000/api/rnas/download/all.new.bed">{{ introTable[0].filename }}</a>
+        <a href="http://8.136.185.34:5000/api/rnas/download/all.new.bed">{{ introTable[0].filename }}</a>
         <ul></ul>
-        <a href="http://127.0.0.1:5000/api/rnas/download/all.new.fa">{{ introTable[1].filename }}</a>
+        <a href="http://8.136.185.34:5000/api/rnas/download/all.new.fa">{{ introTable[1].filename }}</a>
         <ul></ul>
-        <a href="http://127.0.0.1:5000/api/rnas/download/rnas.json">{{ introTable[2].filename }}</a>
+        <a href="http://8.136.185.34:5000/api/rnas/download/rnas.json">{{ introTable[2].filename }}</a>
         <ul></ul>
 
     </div>
